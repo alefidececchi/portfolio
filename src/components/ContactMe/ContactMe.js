@@ -1,8 +1,9 @@
 
 
 const ContactMe = () => {
-    return (<div>
-        <h1>Contact me</h1>
+    return (<div id="Contact">
+        <h2>Contact me</h2>
+        {/** FORM */}
     </div>)
 }
 

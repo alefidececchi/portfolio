@@ -1,8 +1,8 @@
 
 
 const Technologies = () => {
-    return (<div>
-        <h1>Hello Technologies!</h1>
+    return (<div id="Technolgies">
+        <h2>Technologies</h2>
     </div>)
 }
 

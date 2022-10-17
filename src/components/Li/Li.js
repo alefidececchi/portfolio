@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Li = (props) => {
-    return (<li>{props.li}</li>)    
+    return (<li><a href={`#${props.li}`}>{props.li}</a></li>)    
 }
 
 export default Li;
