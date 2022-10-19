@@ -7,12 +7,13 @@
 }
 
 .navbar_links {
-    width: 600px
+    width: 600px;
+    font-size: 1.25em;
 }
 
 .container {
     position: fixed;
     min-width: 100vw;
     min-height: 7vh;
-    background-color: white;
+    background-color: var(--white);
 }

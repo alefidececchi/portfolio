@@ -1,0 +1,22 @@
+@keyframes aboutImg {
+    0% { left: 500px; }
+    100% { left: 0px;}
+}
+
+.animationImg {
+    position: relative;
+    animation: aboutImg 3s cubic-bezier(0.19, 1, 0.22, 1) 1;
+}
+
+.aboutImg {
+    border-radius: 7px;
+    height: auto;
+    /* position: relative; */
+    /* right: 3rem; */
+    margin: 0rem 3rem 3rem 3rem;
+    width: 40rem;
+}
+
+.aboutText {
+    min-width: 300px;
+}

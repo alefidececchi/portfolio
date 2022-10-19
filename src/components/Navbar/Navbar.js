@@ -8,7 +8,7 @@ function Navbar() {
 
     return (<div className={`fl-rw-ctr ${style["spc-arnd"]} ${style.container}`} >
         <div>
-            <h2>Porftolio</h2>
+            <h2>PORTFOLIO</h2>
         </div>
         <div>
             <ul className={`fl-rw-ctr ${style["navbar_links"]} ${style["spc-arnd"]}`} >

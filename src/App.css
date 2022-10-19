@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--blue);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--lightBlue);
 }
 
 @keyframes App-logo-spin {
@@ -46,11 +46,13 @@ h5,
 h6,
 p {
   margin: 0px;
+  color: var(--blue);
 }
 
 a {
-  color:black;
+  color:var(--blue);
   text-decoration: none;
+
 }
 
 ul {
@@ -71,4 +73,12 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+:root {
+  --blue: rgb(48, 66, 105);
+  --lightBlue: rgb(145, 190, 212);
+  --lightBlueGray: rgb(217, 232, 245);
+  --white: rgb(255, 255, 255);
+  --orange: rgb(242, 97, 1);
 }

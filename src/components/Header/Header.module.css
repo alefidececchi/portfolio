@@ -1,5 +1,5 @@
 .headerElement {
-    background-color: rgb(255, 149, 0);
+    background-color: var(--lightBlue);
     min-height: 100vh;
 }
 
@@ -18,8 +18,8 @@
 
 .liStyled {
     font-family: Serif;
-    color: black;
-    font-weight: 700;
+    color: var(--blue);
+    font-weight: 1000;
     padding: 0 10px;
     height: 45px;
     margin-bottom: 45px;
