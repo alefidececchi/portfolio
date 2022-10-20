@@ -12,13 +12,13 @@ const Wrapper = styled.div`
 const Div = styled.div`
   ${'' /* height: 200px;
   width: 300px; */}
-  transform: translateX(${(props) => props.left ? "0" : "-100vw"});
+  transform: ${(props) => !props.animate ? props.left ? "translateX(-100vw)" : "translateX(200vw)" : "translateX(0px)"};
   transition: transform 2s;
   ${'' /* margin: 20px; */}
-  opacity: ${({ animatePercent }) => !!animatePercent ? `${animatePercent / 100}` : "1"};
+  opacity: ${({ animatePercent }) => animatePercent ? `${animatePercent / 100}` : "1"};
 `
 
-const DivAnimated = ({ element, left, right }) => {
+const DivAnimated = ({ element, left }) => {
 
     const [show, setShow] = useState(false)
     const [percent, setPercent] = useState(0)
@@ -26,7 +26,6 @@ const DivAnimated = ({ element, left, right }) => {
     const itemRef = useRef(null);
 
     useLayoutEffect(() => {
-
         const scrollPos = window.innerHeight + window.pageYOffset
         const onScroll = () => {
             const topPos = (elem) => elem.getBoundingClientRect().top
@@ -53,8 +52,7 @@ const DivAnimated = ({ element, left, right }) => {
                 animate={show}
                 animatePercent={percent}
                 left={left}
-                ref={itemRef}
-                right={right}>{element}</Div>
+                ref={itemRef}>{element}</Div>
         </Wrapper>
     </>)
 }

@@ -1,0 +1,15 @@
+{
+    "p": {
+        "about": "Full Stack Developer del tipo MERN (MongoDB, Express.js, React, Node.js). Con excelentes soft skills tales como la adaptabilidad, creatividad, actitud proactiva, trabajo en equipo y autonomía, adquiridas a través de los estudios en tecnologías, de forma individual y grupal. Enfocado primeramente en construir productos innovadores y de alta calidad que impacten en la vida diaria de las personas.",
+        "projects": {
+            "e_commerce": {
+                "title": "E-COMMERCE",
+                "text": "CLICK AND READ es un e-commerce de libros, donde cada usuario tendra la posibilidad tanto de comprar como vender libros ya sean nuevos o usados."
+            },
+            "food_recipes": {
+                "title": "FOOD RECIPES",
+                "text": "Aplicación de recetas de comida"
+            }
+        }
+    }
+}

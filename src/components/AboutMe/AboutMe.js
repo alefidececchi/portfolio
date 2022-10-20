@@ -14,11 +14,11 @@ const img = <img src={imgAbout} className={style.aboutImg} />
 
 const AboutMe = () => {
 
-    return (<div id="About">
+    return (<div className={style.about} id="About">
         <h2>About</h2>
-        <div className={`fl-rw-ctr`}>
-            <DivAnimated left={true} element={text} right={false} />
-            <DivAnimated element={img} />
+        <div className={`fl-rw-ctr ${style["spc-ard"]}`}>
+            <DivAnimated left={true} element={text} />
+            <DivAnimated left={false} element={img}  />
         </div>
     </div>)
 }

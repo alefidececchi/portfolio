@@ -1,22 +1,29 @@
-@keyframes aboutImg {
-    0% { left: 500px; }
-    100% { left: 0px;}
-}
-
-.animationImg {
+/* .animationImg {
     position: relative;
     animation: aboutImg 3s cubic-bezier(0.19, 1, 0.22, 1) 1;
+} */
+
+.about {
+    font-size: larger;
 }
 
 .aboutImg {
     border-radius: 7px;
     height: auto;
-    /* position: relative; */
-    /* right: 3rem; */
-    margin: 0rem 3rem 3rem 3rem;
     width: 40rem;
+    box-shadow: 0 6px 20px 0 var(--lightBlueGray);
+    /* margin-left: 20px; */
 }
 
 .aboutText {
-    min-width: 300px;
+    height: auto;
+    max-width: 630px;
+    border-radius: 7px;
+    box-shadow: 0 6px 20px 0 var(--lightBlueGray);
+    padding: 50px 20px;
+    margin: 10px;
+}
+
+.spc-ard {
+    justify-content: space-around;
 }

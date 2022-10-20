@@ -13,13 +13,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <DivAnimated element={<AboutMe/>}></DivAnimated>
+      <AboutMe/>
       {/* <AboutMe /> */}
-      <DivAnimated element={<Projects/>}></DivAnimated>
-      {/* <Projects /> */}
-      <DivAnimated element={<Technologies/>}></DivAnimated>
+      {/* <DivAnimated element={<Projects/>}></DivAnimated> */}
+      <Projects />
+      {/* <DivAnimated element={<Technologies/>}></DivAnimated> */}
       {/* <Technologies /> */}
-      <DivAnimated element={<ContactMe/>}></DivAnimated>
+      {/* <DivAnimated element={<ContactMe/>}></DivAnimated> */}
       {/* <ContactMe /> */}
       <Footer />
     </div>
