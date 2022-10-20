@@ -9,13 +9,13 @@ const text = <p className={style.aboutText}>Full Stack Developer del tipo MERN (
     través de los estudios en tecnologías, de forma individual y grupal. Enfocado primeramente en construir
     productos innovadores y de alta calidad que impacten en la vida diaria de las personas.</p>
 
-const img = <img src={imgAbout} className={style.aboutImg} />
+const img = <img src={imgAbout} alt='pochi' className={style.aboutImg} />
 
 
 const AboutMe = () => {
 
     return (<div className={style.about} id="About">
-        <h2>About</h2>
+        <h2 className={style.H2about}>ABOUT</h2>
         <div className={`fl-rw-ctr ${style["spc-ard"]}`}>
             <DivAnimated left={true} element={text} />
             <DivAnimated left={false} element={img}  />
@@ -23,7 +23,4 @@ const AboutMe = () => {
     </div>)
 }
 
-{/* <div className={style.animationImg}>
-    <img className={style.aboutImg} src={imgAbout} />
-</div> */}
 export default AboutMe;

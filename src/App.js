@@ -1,12 +1,11 @@
 import './App.css';
-import AboutMe from './components/AboutMe/AboutMe.js'
-import ContactMe from './components/ContactMe/ContactMe.js'
-import DivAnimated from './components/DivAnimated/DivAnimated';
+import AboutMe from './components/AboutMe/AboutMe.js';
+import ContactMe from './components/ContactMe/ContactMe.js';
 import Footer from './components/Footer/Footer.js';
 import Header from './components/Header/Header.js';
-import Navbar from './components/Navbar/Navbar.js'
+import Navbar from './components/Navbar/Navbar.js';
 import Projects from './components/Projects/Projects.js';
-import Technologies from './components/Technologies/Technologies.js'
+import Technologies from './components/Technologies/Technologies.js';
 
 function App() {
   return (
@@ -14,13 +13,9 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe/>
-      {/* <AboutMe /> */}
-      {/* <DivAnimated element={<Projects/>}></DivAnimated> */}
       <Projects />
-      {/* <DivAnimated element={<Technologies/>}></DivAnimated> */}
-      {/* <Technologies /> */}
-      {/* <DivAnimated element={<ContactMe/>}></DivAnimated> */}
-      {/* <ContactMe /> */}
+      <Technologies/>
+      <ContactMe />
       <Footer />
     </div>
   );

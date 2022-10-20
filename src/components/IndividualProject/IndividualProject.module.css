@@ -1,0 +1,28 @@
+.containerProject {
+    margin-bottom: 8rem;
+    align-items: flex-start;
+    font-size: 21px;
+}
+
+.H3text {
+    min-height: 8rem;
+}
+
+.right {
+    margin-right: 2rem;
+}
+
+.left {
+    margin-left: 2rem;
+}
+
+.pText {
+    width: 30rem;
+}
+
+.projectImg {
+    border-radius: 7px;
+    height: auto;
+    width: 30rem;
+    box-shadow: 0 6px 20px 0 var(--lightBlueGray);
+}

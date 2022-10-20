@@ -75,6 +75,20 @@ ul {
   align-items: center;
 }
 
+.fl-rw-spc-btw {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fl-cl-spc-btw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 :root {
   --blue: rgb(48, 66, 105);
   --lightBlue: rgb(145, 190, 212);

@@ -4,11 +4,11 @@
         "projects": {
             "e_commerce": {
                 "title": "E-COMMERCE",
-                "text": "CLICK AND READ es un e-commerce de libros, donde cada usuario tendra la posibilidad tanto de comprar como vender libros ya sean nuevos o usados."
+                "text": "CLICK AND READ es un e-commerce de libros, donde el usuario tiene la posibilidad tanto de comprar como vender libros."
             },
             "food_recipes": {
                 "title": "FOOD RECIPES",
-                "text": "Aplicación de recetas de comida"
+                "text": "Aplicación de recetas de comida donde podés buscar, crear, filtrar y ordenar recetas a tu gusto."
             }
         }
     }

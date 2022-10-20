@@ -6,15 +6,13 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ${'' /* margin: 0 */}
+    width: 100vw;
 `;
 
 const Div = styled.div`
-  ${'' /* height: 200px;
-  width: 300px; */}
+  width: 100vw; 
   transform: ${(props) => !props.animate ? props.left ? "translateX(-100vw)" : "translateX(200vw)" : "translateX(0px)"};
   transition: transform 2s;
-  ${'' /* margin: 20px; */}
   opacity: ${({ animatePercent }) => animatePercent ? `${animatePercent / 100}` : "1"};
 `
 

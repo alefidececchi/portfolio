@@ -1,3 +1,8 @@
 .projects {
     height: auto;
+    font-size: 21px;
+}
+
+.H2projects {
+    margin-bottom: 5rem;
 }
